@@ -3,11 +3,13 @@
 ## 注册类选项
 
 * name 名称，不配置时，以父组件注册时的tagName作为组件名称
-* components 子组件注册对象
-* directives 指令注册对象
-* props 组件接收传值的参数配置对象
+* components 子组件注册对象，注册后可以在template中嵌套使用子组件
+* directives 指令注册对象，注册后可以使用自定义指令
+* props 组件接收传值的参数配置对象，父组件可以传值给此组件
 * data 组件scope 响应式数据配置
 * methods 组件handler配置对象
+* computed 组件get 数据配置
+* watch 组件watcher注册对象
 
 ## 生命周期（Life Circle）
 
