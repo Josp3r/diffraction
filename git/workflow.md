@@ -32,3 +32,10 @@ git merge branch-name
 # git merge --abort
 git push
 ```
+
+## change branch name
+
+```shell
+git checkout old-branch
+git branch -M new-branch
+```
