@@ -18,3 +18,9 @@ git push -u origin main
 git remote remove origin
 git remote add origin neworigin
 ```
+
+## show origin
+
+```shell
+git remote show origin
+```
